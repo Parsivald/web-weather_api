@@ -13,4 +13,5 @@ Built with React, Bootstrap, and fetch API
 ## setup (in bash/cmd)
 
 npm install
+
 npm install bootstrap
