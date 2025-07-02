@@ -11,6 +11,12 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,9 +24,9 @@
 }
 
 body {
+  background-color:#8cb2d8;
   margin: 0;
-  display: flex;
-  place-items: center;
+  
   min-width: 320px;
   min-height: 100vh;
 }
@@ -35,4 +41,9 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
 }
